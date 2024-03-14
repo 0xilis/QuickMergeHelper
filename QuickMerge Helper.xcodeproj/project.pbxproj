@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B06F14A52BA26F210087FBBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B06F14A42BA26F210087FBBD /* AppDelegate.m */; };
+		B06F14AB2BA26F210087FBBD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06F14AA2BA26F210087FBBD /* HomeViewController.m */; };
+		B06F14B02BA26F270087FBBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06F14AF2BA26F270087FBBD /* Assets.xcassets */; };
+		B06F14B32BA26F270087FBBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06F14B12BA26F270087FBBD /* LaunchScreen.storyboard */; };
+		B06F14B62BA26F270087FBBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B06F14B52BA26F270087FBBD /* main.m */; };
+		B06F14BF2BA275B90087FBBD /* libshortcutsign.m in Sources */ = {isa = PBXBuildFile; fileRef = B06F14BE2BA275B90087FBBD /* libshortcutsign.m */; };
+		B06F14C32BA276150087FBBD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06F14C22BA276150087FBBD /* Security.framework */; };
+		B06F14C42BA2768A0087FBBD /* libAppleArchive.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B06F14C12BA276060087FBBD /* libAppleArchive.tbd */; };
+		B06F14C92BA2A4750087FBBD /* libqmc.m in Sources */ = {isa = PBXBuildFile; fileRef = B06F14C82BA2A4750087FBBD /* libqmc.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B06F14A02BA26F210087FBBD /* QuickMerge Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuickMerge Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06F14A32BA26F210087FBBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B06F14A42BA26F210087FBBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B06F14A92BA26F210087FBBD /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B06F14AA2BA26F210087FBBD /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B06F14AF2BA26F270087FBBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B06F14B22BA26F270087FBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B06F14B42BA26F270087FBBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B06F14B52BA26F270087FBBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B06F14BD2BA275B90087FBBD /* libshortcutsign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libshortcutsign.h; sourceTree = "<group>"; };
+		B06F14BE2BA275B90087FBBD /* libshortcutsign.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libshortcutsign.m; sourceTree = "<group>"; };
+		B06F14C12BA276060087FBBD /* libAppleArchive.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAppleArchive.tbd; path = usr/lib/libAppleArchive.tbd; sourceTree = SDKROOT; };
+		B06F14C22BA276150087FBBD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B06F14C52BA278D70087FBBD /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		B06F14C72BA2A4750087FBBD /* libqmc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libqmc.h; sourceTree = "<group>"; };
+		B06F14C82BA2A4750087FBBD /* libqmc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libqmc.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B06F149D2BA26F210087FBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06F14C42BA2768A0087FBBD /* libAppleArchive.tbd in Frameworks */,
+				B06F14C32BA276150087FBBD /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B06F14972BA26F210087FBBD = {
+			isa = PBXGroup;
+			children = (
+				B06F14A22BA26F210087FBBD /* QuickMerge Helper */,
+				B06F14A12BA26F210087FBBD /* Products */,
+				B06F14C02BA276050087FBBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B06F14A12BA26F210087FBBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B06F14A02BA26F210087FBBD /* QuickMerge Helper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B06F14A22BA26F210087FBBD /* QuickMerge Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B06F14C62BA2A4630087FBBD /* libqmc */,
+				B06F14BC2BA275A80087FBBD /* libshortcutsign */,
+				B06F14A32BA26F210087FBBD /* AppDelegate.h */,
+				B06F14A42BA26F210087FBBD /* AppDelegate.m */,
+				B06F14A92BA26F210087FBBD /* HomeViewController.h */,
+				B06F14AA2BA26F210087FBBD /* HomeViewController.m */,
+				B06F14AF2BA26F270087FBBD /* Assets.xcassets */,
+				B06F14B12BA26F270087FBBD /* LaunchScreen.storyboard */,
+				B06F14B42BA26F270087FBBD /* Info.plist */,
+				B06F14B52BA26F270087FBBD /* main.m */,
+				B06F14C52BA278D70087FBBD /* Common.h */,
+			);
+			path = "QuickMerge Helper";
+			sourceTree = "<group>";
+		};
+		B06F14BC2BA275A80087FBBD /* libshortcutsign */ = {
+			isa = PBXGroup;
+			children = (
+				B06F14BD2BA275B90087FBBD /* libshortcutsign.h */,
+				B06F14BE2BA275B90087FBBD /* libshortcutsign.m */,
+			);
+			path = libshortcutsign;
+			sourceTree = "<group>";
+		};
+		B06F14C02BA276050087FBBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B06F14C22BA276150087FBBD /* Security.framework */,
+				B06F14C12BA276060087FBBD /* libAppleArchive.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B06F14C62BA2A4630087FBBD /* libqmc */ = {
+			isa = PBXGroup;
+			children = (
+				B06F14C72BA2A4750087FBBD /* libqmc.h */,
+				B06F14C82BA2A4750087FBBD /* libqmc.m */,
+			);
+			path = libqmc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B06F149F2BA26F210087FBBD /* QuickMerge Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06F14B92BA26F270087FBBD /* Build configuration list for PBXNativeTarget "QuickMerge Helper" */;
+			buildPhases = (
+				B06F149C2BA26F210087FBBD /* Sources */,
+				B06F149D2BA26F210087FBBD /* Frameworks */,
+				B06F149E2BA26F210087FBBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QuickMerge Helper";
+			productName = "QuickMerge Helper";
+			productReference = B06F14A02BA26F210087FBBD /* QuickMerge Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B06F14982BA26F210087FBBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B06F149F2BA26F210087FBBD = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B06F149B2BA26F210087FBBD /* Build configuration list for PBXProject "QuickMerge Helper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B06F14972BA26F210087FBBD;
+			productRefGroup = B06F14A12BA26F210087FBBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B06F149F2BA26F210087FBBD /* QuickMerge Helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B06F149E2BA26F210087FBBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06F14B32BA26F270087FBBD /* LaunchScreen.storyboard in Resources */,
+				B06F14B02BA26F270087FBBD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B06F149C2BA26F210087FBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06F14AB2BA26F210087FBBD /* HomeViewController.m in Sources */,
+				B06F14C92BA2A4750087FBBD /* libqmc.m in Sources */,
+				B06F14A52BA26F210087FBBD /* AppDelegate.m in Sources */,
+				B06F14BF2BA275B90087FBBD /* libshortcutsign.m in Sources */,
+				B06F14B62BA26F270087FBBD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B06F14B12BA26F270087FBBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06F14B22BA26F270087FBBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B06F14B72BA26F270087FBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B06F14B82BA26F270087FBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B06F14BA2BA26F270087FBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RR5WP5NG77;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QuickMerge Helper/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = QuickMerge;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.0xilis.QuickMerge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B06F14BB2BA26F270087FBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RR5WP5NG77;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QuickMerge Helper/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = QuickMerge;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.0xilis.QuickMerge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B06F149B2BA26F210087FBBD /* Build configuration list for PBXProject "QuickMerge Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06F14B72BA26F270087FBBD /* Debug */,
+				B06F14B82BA26F270087FBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06F14B92BA26F270087FBBD /* Build configuration list for PBXNativeTarget "QuickMerge Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06F14BA2BA26F270087FBBD /* Debug */,
+				B06F14BB2BA26F270087FBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B06F14982BA26F210087FBBD /* Project object */;
+}
